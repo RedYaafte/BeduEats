@@ -1,8 +1,8 @@
 import React from 'react';
-import syles from './Search.module.scss';
+import styles from './Search.module.scss';
 
 const Search = () => (
-    <div>
+    <div className={styles.red}>
         <input type="text"/>
     </div>
 )
