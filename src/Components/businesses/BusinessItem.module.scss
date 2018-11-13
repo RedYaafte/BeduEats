@@ -1,0 +1,16 @@
+.business-item {
+    max-width: 320px;
+    width: 100%;
+    margin: 20px;
+    border: 1px solid transparent;
+    transition: .4s;
+    cursor: pointer;
+}
+.business-item:hover {
+    transform: translateY(-5px);
+}
+.business-item img {
+    max-width: 320px;
+    width: 100%;
+    border-radius: 4px;
+}
