@@ -2,9 +2,9 @@ import React from 'react';
 import BusinessItem from './BusinessItem';
 import styles from './BusinessList.module.scss';
 
-const BusinessList = (props) => (
+const BusinessList = ({ businessCont }) => (
     <div className={styles['business-list']}>
-        <BusinessItem name={props.name} />
+        {businessCont.map( business => <BusinessItem key={business.id} business={business} /> )}
     </div>
 )
 

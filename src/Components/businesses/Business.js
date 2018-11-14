@@ -14,7 +14,6 @@ class BusinessCont extends Component {
     fetchBusinessCont = async () => {
         let businessRequest = await axios.get('http://localhost:3001/business/');
         let businessCont = businessRequest.data;
-        console.log(businessCont);
         this.setState({ businessCont });
     }
 
@@ -25,4 +24,4 @@ class BusinessCont extends Component {
     }
 }
 
-export default Business;
+export default BusinessCont;
