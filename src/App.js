@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 // import logo from './logo.svg';
 // import BusinessList from './Components/businesses/BusinessList';
 import businessCont from './Components/businesses/Business'
+import Product from './Components/products/Products';
 import './App.css';
 
 class App extends Component {
@@ -12,8 +13,8 @@ class App extends Component {
         <Switch>
           {/* Home component route */}
           {/* <Route exact path="/" /> */}
-          {/* Businesses list */}
           <Route path="/business/list/" component={businessCont} />
+          <Route path="/business/product/" component={Product} />
         </Switch>
       </BrowserRouter>
     );
