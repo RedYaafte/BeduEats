@@ -6,7 +6,7 @@
     transition: .4s;
     cursor: pointer;
 }
-.business-item:hover {
+.business-item:hover .business-item-img img {
     transform: translateY(-5px);
 }
 .business-item:hover .business-item-img img {
