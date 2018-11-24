@@ -9,9 +9,6 @@ class Product extends Component {
 
     componentDidMount = () => {
         this.fetchProduct();
-        // const userId = this.props.match.params.id;
-        // const businessId = this.props.match.params.id;
-        // console.log(businessId);
     }
 
     fetchProduct = async () => {

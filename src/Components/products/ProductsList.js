@@ -16,10 +16,6 @@ const ProductsList = ({ products }) => {
                         <p>{products.description}</p>
                         <span><strong>Price: </strong>${products.price}</span>
                         <div className={styles}>
-                            <div>
-                                {/* <span><strong>Open time:</strong> { products.openTime }hrs.</span> <br/>
-                                <span><strong>Close time:</strong> { products.closeTime }hrs.</span> */}
-                            </div>
                             <div>4.2</div>
                         </div>
                     </div>
